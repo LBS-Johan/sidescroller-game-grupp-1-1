@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -14,19 +11,19 @@ public class PlayerMovement : MonoBehaviour
     Collider2D coll2D;
 
     Vector2 playerHalfSize = Vector2.zero;
-    
+
     // Start is called before the first frame update
     void Start()
     {
 
         rigidBody = GetComponent<Rigidbody2D>();
-        if(rigidBody == null)
+        if (rigidBody == null)
         {
             Debug.Log("This object is missing a rigidbody!");
         }
 
         coll2D = GetComponent<Collider2D>();
-        if(coll2D != null)
+        if (coll2D != null)
         {
             playerHalfSize = coll2D.bounds.extents;
         }
@@ -48,11 +45,11 @@ public class PlayerMovement : MonoBehaviour
         if (transform.position.y < verticalBound && (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)))
         {
             direction.y = 1;
-        } 
+        }
         if (transform.position.y > -verticalBound && (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)))
         {
             direction.y = -1;
-        } 
+        }
         if (transform.position.x < horizontalBound && (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)))
         {
             direction.x = 1;
