@@ -241,11 +241,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: d7be3aa75d009714a924b72374565200, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.32
+      value: -11.91
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: d7be3aa75d009714a924b72374565200, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.01
+      value: 16.39
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: d7be3aa75d009714a924b72374565200, type: 3}
       propertyPath: m_LocalPosition.z
@@ -343,7 +343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fad2e2b23672224facc6828acf7738f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  velocity: {x: 2, y: 4}
+  velocity: {x: 2, y: 3}
   zigzagTime: 1
   zigzagdirection: 0
 --- !u!50 &1603035887
@@ -403,9 +403,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
   fireButton: 0
-  fireDirection: {x: 2, y: 4}
+  fireDirection: {x: 5, y: 0}
   coolDown: 5
-  prefab: {fileID: -2253911629886400664, guid: d7be3aa75d009714a924b72374565200, type: 3}
+  prefab: {fileID: 1603035883}
   spawnLocation: {fileID: 1991479569}
 --- !u!4 &1991479569
 Transform:
@@ -416,7 +416,7 @@ Transform:
   m_GameObject: {fileID: 1991479567}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.57, y: -0.89, z: 0}
+  m_LocalPosition: {x: -12.84, y: -1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
