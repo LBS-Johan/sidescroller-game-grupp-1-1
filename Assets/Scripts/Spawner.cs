@@ -9,7 +9,7 @@ public class Spawner : MonoBehaviour
     Vector2 fireDirection = Vector2.zero;
 
     [SerializeField]
-    float coolDown = 10;
+    float coolDown;
 
     [SerializeField]
     GameObject prefab;
@@ -28,10 +28,14 @@ public class Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         timer -= Time.deltaTime;
+
+
 
         if ((fireButton == KeyCode.None || Input.GetKeyDown(fireButton)) && timer <= 0)
         {
+
             Vector2 pos = transform.position;
             if (spawnLocation != null)
             {
@@ -49,5 +53,9 @@ public class Spawner : MonoBehaviour
 
             timer = coolDown;
         }
+
+
+
+
     }
 }
