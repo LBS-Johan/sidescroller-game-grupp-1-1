@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Spawner : MonoBehaviour
@@ -24,18 +22,22 @@ public class Spawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
         timer -= Time.deltaTime;
+
+
 
         if ((fireButton == KeyCode.None || Input.GetKeyDown(fireButton)) && timer <= 0)
         {
+
             Vector2 pos = transform.position;
-            if(spawnLocation != null)
+            if (spawnLocation != null)
             {
                 pos = spawnLocation.position;
             }
@@ -47,9 +49,13 @@ public class Spawner : MonoBehaviour
             {
                 rb.linearVelocity = fireDirection;
             }
-            
+
 
             timer = coolDown;
         }
+
+
+
+
     }
 }
