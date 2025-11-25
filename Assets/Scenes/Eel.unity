@@ -153,7 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HurtPlayer
   hurtAmount: 6
   hurtSound: {fileID: 0}
-  deathObject: {fileID: 0}
+  deathObject: {fileID: 988389771}
 --- !u!50 &988389776
 Rigidbody2D:
   serializedVersion: 5
