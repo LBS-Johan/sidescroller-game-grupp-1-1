@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class HurtEnemy : MonoBehaviour
@@ -17,5 +15,6 @@ public class HurtEnemy : MonoBehaviour
 
         ehealth.Hurt(hurtAmount);
         Destroy(gameObject);
+
     }
 }
