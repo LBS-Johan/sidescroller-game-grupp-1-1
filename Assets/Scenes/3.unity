@@ -548,7 +548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
   fireButton: 32
   fireDirection: {x: -5, y: 0}
-  coolDown: 0
+  coolDown: 0.5
   prefab: {fileID: 864179932}
   spawnLocation: {fileID: 523371327}
 --- !u!114 &523371330
@@ -565,7 +565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 5
   hurtSound: {fileID: 0}
-  gameOverSceneName: 3
+  gameOverSceneName: 1
 --- !u!1001 &864179931
 PrefabInstance:
   m_ObjectHideFlags: 0

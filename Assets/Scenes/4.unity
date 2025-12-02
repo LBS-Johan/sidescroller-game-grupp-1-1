@@ -321,7 +321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
   fireButton: 32
   fireDirection: {x: -5, y: 0}
-  coolDown: 0
+  coolDown: 0.5
   prefab: {fileID: 1079631721}
   spawnLocation: {fileID: 75307814}
 --- !u!114 &75307817
