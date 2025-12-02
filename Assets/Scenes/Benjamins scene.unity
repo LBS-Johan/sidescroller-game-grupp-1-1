@@ -124,18 +124,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2650274890934169932, guid: 504c1a1476e158c49acf08523bc77f19, type: 3}
   m_PrefabInstance: {fileID: 1187661086925987139}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &776891778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 776891774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53e3cf409f3362e43baf441df725f067, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FishBoneAnim
 --- !u!114 &776891779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e3ac97d3dacdd7478e46324e09ec21c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diefish
-  TimeBeforeDeath: 20
+  TimeBeforeDeath: 35
 --- !u!1 &1238708296 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2032829157403152977, guid: 6a4ed693f0e581a4292b8f0161ce8d60, type: 3}
@@ -519,9 +507,6 @@ PrefabInstance:
       addedObject: {fileID: 776891779}
     - targetCorrespondingSourceObject: {fileID: 2650274890934169932, guid: 504c1a1476e158c49acf08523bc77f19, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 776891778}
-    - targetCorrespondingSourceObject: {fileID: 2650274890934169932, guid: 504c1a1476e158c49acf08523bc77f19, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 776891780}
   m_SourcePrefab: {fileID: 100100000, guid: 504c1a1476e158c49acf08523bc77f19, type: 3}
 --- !u!1001 &5812326137965215574
@@ -538,11 +523,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3754277640312643205, guid: 6a4ed693f0e581a4292b8f0161ce8d60, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.1
+      value: -6.62
       objectReference: {fileID: 0}
     - target: {fileID: 3754277640312643205, guid: 6a4ed693f0e581a4292b8f0161ce8d60, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.6
+      value: -6.74
       objectReference: {fileID: 0}
     - target: {fileID: 3754277640312643205, guid: 6a4ed693f0e581a4292b8f0161ce8d60, type: 3}
       propertyPath: m_LocalPosition.z
@@ -575,6 +560,14 @@ PrefabInstance:
     - target: {fileID: 3754277640312643205, guid: 6a4ed693f0e581a4292b8f0161ce8d60, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6874282468914760220, guid: 6a4ed693f0e581a4292b8f0161ce8d60, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2064412103934487757, guid: 54753c59956eae648b0bedb902f373a6, type: 3}
+    - target: {fileID: 6874282468914760220, guid: 6a4ed693f0e581a4292b8f0161ce8d60, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
