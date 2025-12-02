@@ -201,7 +201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 5
   hurtSound: {fileID: 0}
-  gameOverSceneName: 1
+  gameOverSceneName: 2
 --- !u!4 &173512167 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6547430693572947487, guid: 103b1444fab72494bb9331e3815df639, type: 3}
