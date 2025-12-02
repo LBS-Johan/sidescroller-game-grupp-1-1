@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 759d9f5856801094aa90e748f7c294ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HurtPlayer
-  hurtAmount: 2
+  hurtAmount: 5
   hurtSound: {fileID: 0}
   deathObject: {fileID: 886827344}
 --- !u!114 &227428173
@@ -1070,7 +1070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14747414387c4bf4389d1f07738460d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  maxHealth: 5
+  maxHealth: 7
   hurtSound: {fileID: 0}
   gameOverSceneName: 1
 --- !u!114 &1406610720
