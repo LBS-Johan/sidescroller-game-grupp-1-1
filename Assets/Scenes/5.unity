@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sprite-0004 Kraken
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 6d019f4d03fd8384bac39fc7f0d271b6, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 6d019f4d03fd8384bac39fc7f0d271b6, type: 3}
       propertyPath: m_LocalScale.x
       value: 26.001757
@@ -236,7 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 759d9f5856801094aa90e748f7c294ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HurtPlayer
-  hurtAmount: 60
+  hurtAmount: 2
   hurtSound: {fileID: 0}
   deathObject: {fileID: 0}
 --- !u!114 &227428173
@@ -266,7 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2502dc43cfdbfc40b80d3044a4f574c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 160
+  maxHealth: 15
   hurtSound: {fileID: 0}
   deathObject: {fileID: 0}
 --- !u!50 &227428175
