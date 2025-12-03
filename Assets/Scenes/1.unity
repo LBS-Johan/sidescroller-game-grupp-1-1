@@ -684,10 +684,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
   fireButton: 0
-  fireDirection: {x: 0, y: 0}
-  coolDown: 0
+  fireDirection: {x: -5, y: 0}
+  coolDown: 0.5
   prefab: {fileID: 0}
-  spawnLocation: {fileID: 0}
+  spawnLocation: {fileID: 1473625164}
 --- !u!1 &835771895
 GameObject:
   m_ObjectHideFlags: 0
